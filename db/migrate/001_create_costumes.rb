@@ -11,6 +11,9 @@
 class CreateCostumes < ActiveRecord::Migration
 
   def change
+    create_table :costumes do |t|
+      
+    end
     add_column(:costumes, :name, :string)
     add_column(:costumes, :price, :float)
     add_column(:costumes, :image_url, :string)
