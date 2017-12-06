@@ -5,7 +5,7 @@ class HauntedHouses < ActiveRecord::Migration
       t.string :name
       t.string :location
       t.string :theme
-      t.string :image_url
+      t.float :price
       t.string :size
       t.timestamps
     end
