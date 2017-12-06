@@ -12,13 +12,5 @@ class CreateCostumeStores < ActiveRecord::Migration
       t.datetime :opening_time
       t.datetime :closing_time
     end
-    add_column(:costume_store, :name, :string)
-    add_column(:costume_store, :location, :string)
-    add_column(:costume_store, :costume_inventory, :string)
-    add_column(:costume_store, :employee_count, :integer)
-    add_column(:costume_store, :employee_count, :integer)
-    add_column(:costume_store, :employee_count, :integer)
-
   end
-
 end
