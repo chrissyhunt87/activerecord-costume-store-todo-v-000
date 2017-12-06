@@ -8,5 +8,5 @@ class CreateCostumeStores < ActiveRecord::Migration
     add_column(:costume_store, :costume_inventory, :string)
     add_column(:costume_store, :size, :string)
   end
-  
+
 end
