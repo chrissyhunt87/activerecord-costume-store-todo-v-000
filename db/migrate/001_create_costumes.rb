@@ -12,7 +12,7 @@ class CreateCostumes < ActiveRecord::Migration
 
   def change
     add_column(:costumes, :name, :string)
-    add_column(:costumes, :price, :integer)
+    add_column(:costumes, :price, :float)
     add_column(:costumes, :img_url, :string)
     add_column(:costumes, :size, :integer)
   end
